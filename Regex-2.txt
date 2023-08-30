@@ -1,0 +1,17 @@
+Task
+
+You have a test string . Your task is to match the pattern 
+Here  denotes any word character and  denotes any non-word character.
+
+
+
+public class Solution {    
+
+    public static void main(String[] args) {
+        
+        Regex_Test tester = new Regex_Test();
+        tester.checker("\\w{3}\\W\\w{10}\\W\\w{3}"); 
+    
+    }
+}
+
